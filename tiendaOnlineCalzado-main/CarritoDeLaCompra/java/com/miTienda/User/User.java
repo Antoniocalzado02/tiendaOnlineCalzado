@@ -10,10 +10,22 @@ import javax.persistence.Id;
 
 public class User {
 	@Id
-	@Column (name="USERNAME")
-	private String userName;
-	@Column (name="PASSWORDD")
-	private String passWord;
+	@Column (name="nickname")
+	private String nickname;
+	@Column (name="nombre")
+	private String nombre;
+	@Column (name="apellidos")
+	private String apellidos;
+	@Column (name="email")
+	private String email;
+	@Column (name="contrasena")
+	private String contrasena;
+	@Column (name="fecha_nac")
+	private date fecha_nac;
+	@Column (name="genero")
+	private String genero;
+	@Column (name="es_admin")
+	private boolean es_admin;
 	
 	
 	public User(String userName, String passWord) {
