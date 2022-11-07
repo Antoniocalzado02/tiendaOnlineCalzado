@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-    <form id="form" method="post" action="loginExec">
+    <form id="form" method="post" action="miTienda.java">
         <div class="form-field">
             <label for="nombre">Nickname</label>
             <input type="text" id="nombre" name="nombre" >
@@ -17,7 +17,7 @@
 
         </div><br>
         <div class="form-field">
-            <label for="password">Contraseña</label>
+            <label for="password">ContraseÃ±a</label>
             <input type="password" id="password" name="password" >
             <small></small>
         </div><br>
