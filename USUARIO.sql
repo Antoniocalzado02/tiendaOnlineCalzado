@@ -30,22 +30,22 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `USUARIO`
 --
 
-CREATE TABLE `USUARIO` (
-  `nickname` varchar(50) COLLATE utf8_general_mysql500_ci DEFAULT NULL,
-  `nombre` varchar(50) COLLATE utf8_general_mysql500_ci DEFAULT NULL,
-  `apellidos` varchar(50) COLLATE utf8_general_mysql500_ci DEFAULT NULL,
-  `email` varchar(50) COLLATE utf8_general_mysql500_ci DEFAULT NULL,
-  `contrasena` varchar(50) COLLATE utf8_general_mysql500_ci DEFAULT NULL,
-  `fecha_nac` date DEFAULT NULL,
-  `genero` varchar(50) COLLATE utf8_general_mysql500_ci DEFAULT NULL,
-  `es_admin` varchar(50) COLLATE utf8_general_mysql500_ci DEFAULT NULL
+CREATE TABLE tiendaOnlineCalzado.USUARIO (
+  nickname varchar(50) COLLATE utf8_general_mysql500_ci DEFAULT NULL,
+  nombre varchar(50) COLLATE utf8_general_mysql500_ci DEFAULT NULL,
+  apellidos varchar(50) COLLATE utf8_general_mysql500_ci DEFAULT NULL,
+  email varchar(50) COLLATE utf8_general_mysql500_ci DEFAULT NULL,
+  contrasena varchar(50) COLLATE utf8_general_mysql500_ci DEFAULT NULL,
+  fecha_nac date DEFAULT NULL,
+  genero varchar(50) COLLATE utf8_general_mysql500_ci DEFAULT NULL,
+  es_admin varchar(50) COLLATE utf8_general_mysql500_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_mysql500_ci;
 
 --
 -- Volcado de datos para la tabla `USUARIO`
 --
 
-INSERT INTO `USUARIO` (`nickname`, `nombre`, `apellidos`, `email`, `contrasena`, `fecha_nac`, `genero`, `es_admin`) VALUES
+INSERT INTO tiendaOnlineCalzado.USUARIO (nickname, nombre, apellidos, email, contrasena, fecha_nac, genero, es_admin) VALUES
 ('antoniolora23', 'Antonio', 'Calzado', 'antonio23@gmail.com', '3e5f2ce4f1d29846c7c2478679be4f3d', '2002-05-02', 'M', '1'),
 ('javielito', 'Javi', 'Guerras', 'elguerras@noaa.gov', 'abfde839bcd8f4e609b0d6eed93d64b1', '1979-03-08', 'M', '0'),
 ('sfedder1', 'Sonnie', 'Fedder', 'sfedder1@prnewswire.com', '815236005f54b502953912883a60ab5d', '1996-01-15', 'M', '1'),
